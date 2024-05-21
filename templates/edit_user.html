@@ -1,0 +1,10 @@
+<!-- edit_user.html -->
+<form method="POST">
+    <label for="new_username">New Username:</label>
+    <input type="text" id="new_username" name="new_username" value="{{ user.username }}"><br>
+    <label for="new_password">New Password:</label>
+    <input type="password" id="new_password" name="new_password" value="{{ user.password }}"><br>
+    <label for="new_expiration_date">New Expiration Date:</label>
+    <input type="date" id="new_expiration_date" name="new_expiration_date" value="{{ user.expiration_date }}"><br>
+    <input type="submit" value="Save Changes">
+</form>
